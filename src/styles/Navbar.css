@@ -1,0 +1,82 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+  z-index: 1000;
+  background-color: rgba(250, 248, 248, 1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), -2px 0 10px rgba(0, 0, 0, 0.1),
+    2px 0 10px rgba(0, 0, 0, 0.1);
+  height: 4rem;
+}
+.navbar a {
+  color: #343a40;
+}
+.navbar-brand {
+  padding: 12px 1rem;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+.social-icons .nav-link {
+  color: #424242;
+  transition: color 0.3s ease;
+}
+
+.social-icons .nav-link:hover {
+  color: #333;
+}
+/* Style pour les petits écrans */
+@media (max-width: 800px) {
+  .navbar * {
+    background-color: #343a40;
+    /* Couleur de fond solide pour mobile */
+    color: aliceblue;
+  }
+  .navbar a {
+    color: aliceblue;
+  }
+
+  .navbar-collapse {
+    background-color: #343a40;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+  }
+}
+
+/* Style des liens */
+.nav-link {
+  color: #f7f5f5;
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Style des icônes sociales */
+.social-icons {
+  flex-direction: row;
+}
+
+.social-icons .nav-item {
+  margin-left: 0.5rem;
+}
+
+/* Style du bouton toggler */
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

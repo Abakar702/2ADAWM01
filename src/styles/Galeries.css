@@ -1,0 +1,17 @@
+/* Galeries.css */
+.carousel-caption h5 {
+  color: white;
+  font-size: 2rem; /* Agrandit le titre */
+}
+
+.carousel-caption p {
+  color: white;
+  font-size: 1.2rem; /* Agrandit le texte */
+}
+.carousel-item {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  /* Limite la hauteur de l'image */
+  background-color: rgba(0, 0, 0, 5);
+}

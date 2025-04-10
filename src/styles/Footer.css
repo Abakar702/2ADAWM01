@@ -1,0 +1,39 @@
+:root {
+  --bg-footer: rgba(25, 25, 25, 0.8);
+  --bg-footer-light: rgba(255, 255, 255, 0.8);
+  --text-color: azure;
+}
+.footer {
+  margin-top: 15px;
+  bottom: 0;
+  background-color: var(--bg-footer);
+  color: var(--text-color);
+}
+
+.footer hr {
+  margin: 1rem 0;
+  opacity: 0.25;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #7c4dff !important;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}

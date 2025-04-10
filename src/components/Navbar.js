@@ -5,15 +5,14 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import './Navbar.css'; // Import the CSS file for styling
+import "../styles/Navbar.css"; // Import the CSS file for styling
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid">
-        
         <a className="navbar-brand" href="/">
-          <img src="logo192.png" alt="Logo" width="30" height="30" />
+          <img src="R.png" alt="Logo" width="60" height="50" />
         </a>
 
         <button
@@ -26,21 +25,25 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarContent">
-          
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link" href="/">
-                Home
+                Accueil
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/about">
-                About
+                À propos
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/galleries">
                 Galleries
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/avis">
+                Avis
               </a>
             </li>
             <li className="nav-item">
@@ -50,7 +53,6 @@ const Navbar = () => {
             </li>
           </ul>
 
-          
           <ul className="navbar-nav social-icons">
             <li className="nav-item">
               <a
