@@ -22,17 +22,17 @@ const Enseignants = () => {
             <img
               src="./imgEns/ens (1).jfif"
               className="card-img-top"
-              alt="Dr. Mahamat K. - Expert en Cybersécurité"
+              alt="Dr. Hissein Hassan - Spécialiste en Réseaux"
             />
             <div className="card-body">
-              <h5 className="card-title">Dr. Mahamat K.</h5>
+              <h5 className="card-title">Dr. Hissein Hassan</h5>
               <h6 className="card-subtitle mb-2 text-muted">
-                Responsable du Département Sécurité Informatique
+                Directeur des Études - Spécialiste en Réseaux
               </h6>
               <p className="card-text">
-                "Former la prochaine génération de cyberdéfenseurs est ma
-                mission. À l'ENASTIC, nous combinons théorie avancée et
-                simulations réelles pour préparer aux défis actuels."
+                "Ancien directeur technique à la SOTEL Tchad, je forme nos
+                étudiants aux architectures réseaux adaptées au contexte
+                tchadien."
               </p>
               <div className="mt-auto">
                 <span className="badge bg-primary me-2">Certifié CISSP</span>

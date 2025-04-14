@@ -1,17 +1,17 @@
+/* Custom styles that complement Bootstrap */
 .home-header {
   position: relative;
   text-align: center;
   color: white;
-}
-
-.home-container {
-  position: relative;
   background-color: rgba(0, 0, 0, 6);
 }
 
 .home-container img {
   display: block;
   opacity: 0.7;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .content-overlay {
@@ -20,16 +20,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
-.content-overlay h1 {
-  font-weight: 900;
-  font-size: 3rem;
-  letter-spacing: 1.5px;
+  width: 90%;
 }
 .content-overlay p{
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
+
 .cta-button {
   background-color: #007bff;
   border: none;
@@ -49,31 +46,26 @@
 }
 
 .section {
-  padding: 50px 20px;
-  text-align: center;
+  padding: 3rem 0;
 }
 
-.news-container,
-.testimonial-container,
-.partners-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.news-item,
-.testimonial-item,
-.partner-item {
-  flex: 1;
-  margin: 20px;
-  padding: 20px;
+/* Custom card styling */
+.custom-card {
+  margin-bottom: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.news-item h3,
-.testimonial-item p,
-.partner-item img {
-  margin-bottom: 20px;
+.custom-card-body {
+  flex: 1;
+}
+
+.partner-img {
+  max-height: 100px;
+  width: auto;
+  object-fit: contain;
 }

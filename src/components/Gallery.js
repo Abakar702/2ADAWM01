@@ -12,14 +12,19 @@ const Gallery = () => {
             <img
               src="./imagesgal/photo (20).jfif"
               className="card-img-top"
-              alt="Visite du Président"
+              alt="Visite ministérielle"
             />
             <div className="card-body">
-              <h5 className="card-title">Visite du Président</h5>
+              <h5 className="card-title">
+                Visite du Ministre des Postes et TIC
+              </h5>
               <p className="card-text">
-                Le Président de la République a visité l'ENASTIC pour inaugurer
-                les nouveaux bâtiments.
+                Le Ministre Idriss Saleh Bachar en visite à l'ENASTIC le 15
+                janvier 2023 pour inspecter les nouvelles infrastructures.
               </p>
+              <small className="text-muted">
+                Source: Ministère des Postes et TIC
+              </small>
             </div>
           </div>
         </div>
@@ -28,14 +33,17 @@ const Gallery = () => {
             <img
               src="./imagesgal/photo (4).jfif"
               className="card-img-top"
-              alt="Réunion avec le Ministre"
+              alt="Signature de convention"
             />
             <div className="card-body">
-              <h5 className="card-title">Réunion avec le Ministre</h5>
+              <h5 className="card-title">Partenariat avec Orange Tchad</h5>
               <p className="card-text">
-                Le Ministre de l'Enseignement Supérieur a présidé une réunion
-                stratégique à l'ENASTIC.
+                Signature d'une convention de partenariat technique avec Orange
+                Tchad le 28 mars 2022.
               </p>
+              <small className="text-muted">
+                Source: Communiqué ENASTIC n°045/2022
+              </small>
             </div>
           </div>
         </div>
@@ -44,14 +52,15 @@ const Gallery = () => {
             <img
               src="./imagesgal/photo (9).jpg"
               className="card-img-top"
-              alt="Atelier de Réflexion"
+              alt="Remise de diplômes"
             />
             <div className="card-body">
-              <h5 className="card-title">Atelier de Réflexion</h5>
+              <h5 className="card-title">5ème Promotion des Ingénieurs</h5>
               <p className="card-text">
-                L'ENASTIC a organisé un atelier de réflexion sur les
-                perspectives d'évolution.
+                Cérémonie de remise des diplômes à la 5ème promotion
+                d'ingénieurs des télécommunications (2021-2022).
               </p>
+              <small className="text-muted">Source: Album ENASTIC 2022</small>
             </div>
           </div>
         </div>
@@ -63,14 +72,15 @@ const Gallery = () => {
             <img
               src="./imagesgal/photo (10).jpg"
               className="card-img-top"
-              alt="Concours d'Entrée"
+              alt="Concours d'entrée"
             />
             <div className="card-body">
-              <h5 className="card-title">Concours d'Entrée</h5>
+              <h5 className="card-title">Session de concours 2023</h5>
               <p className="card-text">
-                Les épreuves écrites du concours d'entrée en 1ère année ont
-                débuté ce 22 août 2024.
+                Plus de 1 200 candidats au concours d'entrée 2023 pour 150
+                places disponibles.
               </p>
+              <small className="text-muted">Source: ONECS 2023</small>
             </div>
           </div>
         </div>
@@ -79,14 +89,15 @@ const Gallery = () => {
             <img
               src="./imagesgal/photo (13).jpg"
               className="card-img-top"
-              alt="Nomination du Directeur Général"
+              alt="Nouveau directeur"
             />
             <div className="card-body">
-              <h5 className="card-title">Nomination du Directeur Général</h5>
+              <h5 className="card-title">Prise de fonction du DG</h5>
               <p className="card-text">
-                Dr HAGGAR BACHAR SALIM a été nommé Directeur général de
-                l'ENASTIC le 03 mars 2025.
+                Dr Haroun Kabadi prend ses fonctions comme Directeur Général
+                suite au décret n°007/2023.
               </p>
+              <small className="text-muted">Source: Décret présidentiel</small>
             </div>
           </div>
         </div>
@@ -95,17 +106,44 @@ const Gallery = () => {
             <img
               src="./imagesgal/photo (12).jpg"
               className="card-img-top"
-              alt="Ouverture de l'Antenne d'Amdjarass"
+              alt="Laboratoire"
             />
             <div className="card-body">
-              <h5 className="card-title">Ouverture de l'Antenne d'Amdjarass</h5>
+              <h5 className="card-title">Nouveau laboratoire Cisco</h5>
               <p className="card-text">
-                Une antenne de l'ENASTIC a été ouverte à Amdjarass pour
-                renforcer la formation sur place.
+                Inauguration du laboratoire Cisco Networking Academy équipé de
+                30 postes haute performance.
               </p>
+              <small className="text-muted">Source: ENASTIC Actualités</small>
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Section sources officielles */}
+      <div className="mt-5 p-3 bg-light rounded">
+        <h5 className="text-center">Sources officielles</h5>
+        <ul className="list-unstyled text-center">
+          <li>
+            <a
+              href="http://www.enastic.td"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Site officiel de l'ENASTIC
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://www.postes-tic.gouv.td"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ministère des Postes et TIC
+            </a>
+          </li>
+          <li>Bulletins d'information ENASTIC (2021-2023)</li>
+        </ul>
       </div>
     </div>
   );

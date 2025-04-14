@@ -34,7 +34,7 @@ const About = () => {
                 de contribuer au développement numérique de notre pays.
               </p>
               <div className="director-signature mt-4">
-                <p className="mb-0 fw-bold">Dr. HAGAR</p>
+                <p className="mb-0 fw-bold">Dr. HAGGAR BACHAR SALIM</p>
                 <p className="text-muted">Directeur Général de l'ENASTIC</p>
               </div>
             </div>
@@ -50,17 +50,33 @@ const About = () => {
             <div className="col-md-6">
               <div className="timeline">
                 <div className="timeline-item">
-                  <h4>2010</h4>
+                  <h4>2015</h4>
                   <p>
-                    Création de l'ENASTIC sous l'impulsion du Ministère des
-                    Postes et des TIC
+                    Création de l'ENASTIC par l'Ordonnance n°005/PR/2015 du 2
+                    mars 2015, sous l'impulsion du Ministère des Postes et des
+                    Nouvelles Technologies de l’Information.
                   </p>
                 </div>
                 <div className="timeline-item">
-                  <h4>2012</h4>
+                  <h4>2018</h4>
                   <p>
-                    Ouverture des premières formations en réseaux et
-                    télécommunications
+                    Accréditation des programmes par l'Agence Nationale des
+                    Technologies.
+                  </p>
+                </div>
+                <div className="timeline-item">
+                  <h4>2019</h4>
+                  <p>
+                    Nominations à des postes de responsabilité par décret n° 843
+                    du 14 juin 2019, dont Dr. Haggar Bachar Salim en tant que
+                    Directeur général.
+                  </p>
+                </div>
+                <div className="timeline-item">
+                  <h4>2020</h4>
+                  <p>
+                    Ouverture d'un cycle de master en télécommunication et
+                    systèmes embarqués pour l'année académique 2019-2020.
                   </p>
                 </div>
               </div>
@@ -68,16 +84,69 @@ const About = () => {
             <div className="col-md-6">
               <div className="timeline">
                 <div className="timeline-item">
-                  <h4>2018</h4>
+                  <h4>2021</h4>
                   <p>
-                    Accréditation des programmes par l'Agence Nationale des
-                    Technologies
+                    Sortie de la première promotion de l'ENASTIC à Sarh, avec 38
+                    lauréats.
                   </p>
                 </div>
                 <div className="timeline-item">
                   <h4>2023</h4>
-                  <p>Lancement des spécialisations en IA et Cybersécurité</p>
+                  <p>Lancement des spécialisations en IA et Cybersécurité.</p>
                 </div>
+                <div className="timeline-item">
+                  <h4>2023</h4>
+                  <p>
+                    Nominations à des postes de responsabilité par décret
+                    N°3367/PT/PM/MTEN/2023 du 7 novembre 2023.
+                  </p>
+                </div>
+                <div className="timeline-item">
+                  <h4>2025</h4>
+                  <p>
+                    Nomination du Dr. Haggar Bachar Salim comme Directeur
+                    Général de l'ENASTIC par décret N°0118/PR/PM/MTENDA/2025 du
+                    3 mars 2025.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-4">
+              <div className="location-info">
+                <h3>ENASTIC N'Djamena</h3>
+                <p>
+                  L'ENASTIC N'Djamena est le siège principal de l'École
+                  Nationale Supérieure des Technologies de l'Information et de
+                  la Communication. Elle offre des formations en informatique,
+                  télécommunications, et autres domaines des TIC.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="location-info">
+                <h3>ENASTIC Sarh</h3>
+                <p>
+                  L'ENASTIC Sarh est située dans la ville de Sarh, chef-lieu de
+                  la province du Moyen-Chari. Elle a formé 38 techniciens
+                  supérieurs en informatique et télécommunications en 2021.
+                  L'antenne de Sarh est connue pour ses programmes de Diplômes
+                  de Techniciens Supérieurs (DTS):refs[2-40,41].
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="location-info">
+                <h3>ENASTIC Am-Djarass</h3>
+                <p>
+                  L'ENASTIC Am-Djarass est une extension de l'école située dans
+                  la ville d'Am-Djarass, dans la région d'Ennedi-Est. Cette
+                  antenne vise à étendre l'accès à l'éducation supérieure en
+                  technologies de l'information et de la communication dans les
+                  régions éloignées du pays.
+                </p>
               </div>
             </div>
           </div>
